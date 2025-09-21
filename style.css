@@ -162,3 +162,29 @@ button.button-danger {
 .pill {
   border-radius: 12px;
 }
+
+/* Button-style */
+.badge-btn {
+  margin: 20px auto;
+  color: white;
+  background-color: black;
+}
+
+/*  BANNNERS STYLES */
+.msg-container {
+  padding-right: 500px;
+  margin-bottom: 20px;
+}
+.emoji-msg-holder {
+  display: flex;
+  padding: 16px;
+  gap: 12px;
+}
+
+.emoji-msg-holder p {
+  margin: 0;
+}
+
+.check-icon {
+  align-self: center;
+}
