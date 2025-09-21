@@ -1,12 +1,14 @@
 import ReactDOM from "react-dom/client";
 import Badges from "./components/Badge/Badges";
-import SingleLineBanners from "./components/Banners/SingleLineBanners";
+import Banners from "./components/Banners/Banners";
 
 function App() {
   return (
     <>
-      <Badges />
-      <SingleLineBanners />
+      <div className="main-wrapper">
+        <Badges />
+        <Banners />
+      </div>
     </>
   );
 }

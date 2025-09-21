@@ -3,12 +3,17 @@
 }
 
 body {
-  height: 100vh;
-  margin: 0;
+  min-height: 100vh;
   padding: 10px;
-  display: flex;
-  justify-content: center;
+  padding-bottom: 200px;
   font-family: Inter;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .star {
@@ -171,13 +176,26 @@ button.button-danger {
 }
 
 /*  BANNNERS STYLES */
+.banners {
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 100;
+}
+
 .msg-container {
-  padding-right: 500px;
+  padding: 12px 500px 12px 16px;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .emoji-msg-holder {
   display: flex;
-  padding: 16px;
   gap: 12px;
 }
 
